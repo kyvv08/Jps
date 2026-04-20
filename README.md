@@ -24,7 +24,7 @@
 
 ## 🧠 아키텍처 및 디자인 패턴
 - **데이터 기반 상태 관리 (Data-Driven State Management)**: 타일맵의 상태를 2차원 배열과 클래스 포인터(`JpsNode*`)로 매핑하여 관리.
-- **비트 연산(Bitwise Operation) 플래그**: 강제 이웃(Forced Neighbor) 검사 시 메모리 낭비를 막고 빠른 상태 검증을 위해 비트 플래그(`FLAG_FORCED_RIGHT`, `FLAG_FORCED_LEFT`)와 열거형(`JumpDir`)을 혼합 사용.
+- **비트 연산(Bitwise Operation) 플래그**: 이웃 노드 검사 시 빠른 상태 검증을 위해 비트 플래그(`FLAG_FORCED_RIGHT`, `FLAG_FORCED_LEFT`)와 열거형(`JumpDir`)을 혼합 사용.
 - **커스텀 비교 연산자 (Custom Functor)**: `NodeCompare` 구조체를 구현하여 `std::priority_queue`가 A* 휴리스틱 기반 최소 힙(Min-Heap)으로 동작하도록 설계.
 
 ## 📚 학습 및 적용된 주요 개념

@@ -1,4 +1,4 @@
-# Jump Point Search (JPS) Algorithm Visualizer
+# Jump Point Search (JPS)
 
 ## 📖 프로젝트 소개
 격자 기반(Grid-based) 타일맵 환경에서 최단 경로를 고속으로 탐색하는 **Jump Point Search (JPS) 알고리즘**을 구현하고 시각화한 프로젝트입니다. 기존 A* 알고리즘의 불필요한 노드 탐색을 줄여 성능을 최적화하는 과정을 직관적으로 확인할 수 있으며, 단계별 탐색 애니메이션 및 즉시 탐색 기능을 지원합니다.
